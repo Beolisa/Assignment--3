@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+body::before {
+  display: block;
+  content: "";
+}
+
+/* @media (min-width: 768px) {
+  #job-info {
+  }
+} */
+.btn {
+  border-radius: 10%;
+}
+.hobbies .btn {
+  width: 70px;
+  height: 70px;
+  padding: 15px 15px;
+  border-radius: 60px;
+  border-color: #5bc0de;
+  font-size: 30px;
+  text-align: center;
+}
+.language .btn {
+  width: 70px;
+  height: 1px;
+  border-radius: 10%;
+}
+#job-info .activity-badge {
+  font-size: 10px;
+  transform: translate(-20%, 30%);
+}
+
+.border--1 {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10%;
+}
+.border--2 {
+  height: 0.5px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10%;
+  opacity: 20%;
+}
+.border--speacial {
+  border-bottom: 2px dashed blue;
+  width: 100%;
+}
+.move {
+  margin-left: 100px;
+}
+.logo-fil {
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  font-size: 32px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* display this row with flex and use wrap (= respect columns' widths) */
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+.content {
+  height: 100%;
+}
+
+/* Demo backgrounds and styling*/
+
+.content h3 {
+  margin-top: 0px;
+  font-weight: 300;
+}
+/* THIS IS NAV */
+
+.el--1,
+.el--4 {
+  border-right: none;
+}
+/* .el--3 {
+  padding: 30px 12px;
+  border: none;
+} */
+.el--3 img {
+  border-radius: 50%;
+  border: 10px solid white;
+}
+.container--1 {
+  /* STARTER */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* CSS GRID */
+  display: grid;
+  grid-template-columns: 150px 150px 330px 150px 150px;
+  grid-template-rows: 1fr;
+}
+.icon {
+  color: #85c1e9;
+}

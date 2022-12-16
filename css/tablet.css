@@ -1,0 +1,38 @@
+/* // Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .hobbies .btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    border-color: #5bc0de;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+  }
+
+  /* #nav-bar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } */
+  .el--3 {
+    display: none;
+  }
+  .el {
+    font-size: 16px;
+    /* border: 0.5px solid #ddd;
+    border-collapse: collapse; */
+    cursor: pointer;
+    padding: 10px 35px;
+    color: black;
+  }
+  .border--none {
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+  }
+  .border--none--3 {
+    border-bottom: 1px solid orange;
+  }
+}

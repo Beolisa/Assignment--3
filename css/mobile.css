@@ -1,0 +1,66 @@
+/* @media screen and (max-width: 425px) {
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+} */
+
+@media screen and (max-width: 576px) {
+  /* .container--2 {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+  } */
+  section > .container {
+    /* width: 1170px; */
+
+    width: auto;
+    margin: auto;
+  }
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .banner-img {
+    background-size: cover;
+  }
+  .hobbies .btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border-color: #5bc0de;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+  }
+  .el--3 {
+    display: none;
+  }
+  .el {
+    border: none;
+  }
+
+  #certificate .border--none-1 {
+    border-right: 2px solid #f7f7f7;
+    border-bottom: 1px solid orange;
+  }
+  #certificate .border--none-2 {
+    border-bottom: 1px solid orange;
+  }
+  #job-info .activity-badge {
+    font-size: 8px;
+    transform: translate(-10%, 30%);
+  }
+  .border--none {
+    border-bottom: 1px solid orange;
+  }
+}
